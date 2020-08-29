@@ -1,0 +1,77 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(pic/sah75.jpg);
+    background-size: cover;
+}
+.add
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 650px;
+    margin: auto;
+    margin-top: 90px;
+    height: 470px;
+    margin-left: 237px;
+
+}
+form
+{
+    width: 650px;
+    text-align: center;
+}
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+
+.add select{
+    background: rgba(44,62,80,0.7);
+    color:white;
+    padding: 10px;
+    width: 150px;
+    height: 32px;
+    border: none;
+    font-size: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.5);
+    text-align: center;
+    font-family: 'Play', sans-serif;
+
+}
+h2
+{
+    color: white;
+
+}
+a
+{
+    color: yellow;
+    text-decoration: blink;
+}
+a:hover
+{
+    color: skyblue;
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}
